@@ -1,15 +1,72 @@
+:root {
+  --branding-color: #836d97;
+  --secondary-color: #404142;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Poppins", sans-serif;
+}
+
 body {
   background-color: #f1f1f4;
 }
 
+h1,
+h2,
+h3 {
+  color: var(--brandng-second-color);
+  font-family: var(--heading-font-family);
+  font-weight: 700;
+}
+
 h1 {
-  color: #272044;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
+  font-size: 50px;
+  line-height: 65px;
 }
 
 p {
   color: #272044;
-  font-family: "Poppins", sans-serif;
+  font-family: var(--default-font-family);
   font-weight: 300;
+}
+
+.hero {
+  background-color: #e1ddef;
+  padding: 100px;
+}
+
+.hero p {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  color: #272044;
+  font-size: 20px;
+  margin: 25px 0px;
+}
+
+.hero h2 {
+  font-weight: 500;
+  font-size: 25px;
+  margin: 20px 0px;
+}
+
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 12px 25px;
+  margin-right: 20px;
+}
+
+.btn-branding-second {
+  background: var(--secondary-color);
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  line-height: 22px;
+  padding: 12px 25px;
+}
+
+.hero img {
+  max-width: 400px;
+  border-radius: 150px;
 }
