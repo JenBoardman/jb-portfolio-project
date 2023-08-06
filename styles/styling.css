@@ -37,6 +37,11 @@ p {
   font-size: 14px;
 }
 
+.social-links i {
+  font-size: 24px;
+  margin: 10px 20px;
+}
+
 .hero {
   background-color: #e1ddef;
   padding: 100px;
@@ -64,6 +69,12 @@ p {
   line-height: 22px;
   padding: 8px 15px;
   margin: 5px;
+  transition: all 300ms ease;
+}
+
+.btn-branding:hover {
+  background: #473b53;
+  color: white;
 }
 
 .btn-branding-second {
@@ -76,6 +87,11 @@ p {
   margin: 5px;
 }
 
+.btn-branding-second:hover {
+  background: #32293a;
+  color: white;
+}
+
 .btn-branding-sm {
   background: var(--branding-color);
   border-radius: 30px;
@@ -85,12 +101,22 @@ p {
   padding: 8px 15px;
 }
 
+.btn-branding-sm:hover {
+  background: #473b53;
+  color: white;
+}
+
 .btn-contact {
   background: var(--secondary-color);
   border-radius: 50px;
   color: white;
   font-size: 20px;
   padding: 5px 50px;
+}
+
+.btn-contact:hover {
+  background: #32293a;
+  color: white;
 }
 
 .hero img {
@@ -146,10 +172,14 @@ p {
   }
   .hero {
     text-align: center !important;
+    padding: 30px 50px !important;
   }
   .hero-content {
     padding-right: 0px !important;
     padding-top: 0px !important;
+  }
+  footer {
+    font-size: 12px !important;
   }
 }
 
@@ -162,7 +192,7 @@ p {
     font-size: 25px;
   }
   .hero {
-    padding: 50px 50px !important;
+    padding: 50px 50px;
   }
   .hero-content {
     padding-top: 25px;
