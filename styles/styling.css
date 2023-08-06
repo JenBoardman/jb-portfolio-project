@@ -23,13 +23,18 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
 }
 
 p {
   color: #272044;
   font-family: var(--default-font-family);
   font-weight: 300;
+  font-size: 14px;
 }
 
 .hero {
@@ -55,24 +60,20 @@ p {
   background: var(--branding-color);
   border-radius: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 22px;
-  padding: 12px 25px;
-  margin-right: 20px;
+  padding: 8px 15px;
+  margin: 5px;
 }
 
 .btn-branding-second {
   background: var(--secondary-color);
   border-radius: 30px;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 22px;
-  padding: 12px 25px;
-}
-
-.hero img {
-  max-width: 400px;
-  border-radius: 150px;
+  padding: 8px 15px;
+  margin: 5px;
 }
 
 .btn-branding-sm {
@@ -82,6 +83,21 @@ p {
   font-size: 15px;
   line-height: 22px;
   padding: 8px 15px;
+}
+
+.btn-contact {
+  background: var(--secondary-color);
+  border-radius: 50px;
+  color: white;
+  font-size: 20px;
+  padding: 5px 50px;
+}
+
+.hero img {
+  border-radius: 100px;
+  max-height: 450px;
+  height: auto;
+  width: auto;
 }
 
 .grid-gallery {
@@ -97,5 +113,58 @@ p {
 
 .light-banner {
   background-color: #e1ddef;
-  padding: 100px;
+  padding: 60px;
+}
+
+.contact-banner {
+  background-image: url(../images/female-front-end-developer.jpg);
+  padding: 120px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact-banner h2 {
+  color: white;
+}
+
+.project-description {
+  padding: 50px 50px;
+}
+
+.hero-content {
+  padding-right: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+@media (max-width: 766px) {
+  .hero h2 {
+    font-size: 20px !important;
+  }
+  .contact-banner h2 {
+    text-align: center !important;
+  }
+  .hero {
+    text-align: center !important;
+  }
+  .hero-content {
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+  }
+}
+
+@media (max-width: 1100px) {
+  h1 {
+    font-size: 45px !important;
+    line-height: 40px !important;
+  }
+  .hero h2 {
+    font-size: 25px;
+  }
+  .hero {
+    padding: 50px 50px !important;
+  }
+  .hero-content {
+    padding-top: 25px;
+  }
 }

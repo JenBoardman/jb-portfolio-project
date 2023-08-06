@@ -31,16 +31,16 @@
     <div class="hero">
       <div class="container">
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6 hero-content">
             <p>Hello, I'm</p>
             <h1>Jen Boardman</h1>
-            <h2 class="mb-5">
+            <h2 class="mb-3">
               Front-end developer and digital designer based in Surrey
             </h2>
             <a href="#" class="btn btn-branding">Portfolio</a>
             <a href="#" class="btn btn-branding-second">Contact</a>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <img
               src="images/jen-boardman-01.jpg"
               class="img-fluid"
@@ -52,15 +52,15 @@
     </div>
 
     <div class="container">
-      <div class="row">
-        <div class="col-6">
+      <div class="row mt-5">
+        <div class="col-lg-6">
           <img
             src="images/weather-app.jpg"
             class="img-fluid"
             alt="screenshot image of weather application"
           />
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 project-description">
           <p>Featured Project</p>
           <h2 class="mb-4">Weather App</h2>
           <p class="mb-4">
@@ -71,18 +71,8 @@
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-6">
-          <h2>Landing pages and other development projects</h2>
-          <p>
-            From business pages, landing pages and mini projects to global
-            clocks and weather apps like above. Check out my full front end
-            developer portfolio and maybe even hop over to my Instagram to check
-            out some of my digital design projects.
-          </p>
-          <a href="#" class="btn btn-branding-sm">Explore My Portfolio</a>
-        </div>
-        <div class="col-6">
+      <div class="row mt-5 mb-5">
+        <div class="col-lg-6 d-lg-none">
           <div class="grid-gallery">
             <img
               src="images/swiming-landing-page.jpg"
@@ -99,7 +89,41 @@
               class="img-fluid"
               alt="screenshot image of weather application"
             />
+            <img
+              src="images/world-clock-app.jpg"
+              class="img-fluid"
+              alt="screenshot image of weather application"
+            />
+          </div>
+        </div>
 
+        <div class="col-lg-6 project-description">
+          <h2>Landing pages and other development projects</h2>
+          <p>
+            From business pages, landing pages and mini projects to global
+            clocks and weather apps like above. Check out my full front end
+            developer portfolio and maybe even hop over to my Instagram to check
+            out some of my digital design projects.
+          </p>
+          <a href="#" class="btn btn-branding-sm">Explore My Portfolio</a>
+        </div>
+        <div class="col-lg-6 d-none d-lg-block">
+          <div class="grid-gallery">
+            <img
+              src="images/swiming-landing-page.jpg"
+              class="img-fluid"
+              alt="screenshot image of weather application"
+            />
+            <img
+              src="images/website-mockup.jpg"
+              class="img-fluid"
+              alt="screenshot image of weather application"
+            />
+            <img
+              src="images/business-landing-page.jpg"
+              class="img-fluid"
+              alt="screenshot image of weather application"
+            />
             <img
               src="images/world-clock-app.jpg"
               class="img-fluid"
@@ -112,21 +136,21 @@
     <div class="light-banner">
       <div class="container">
         <div class="row">
-          <div class="col-4 text-center">
+          <div class="col-md-4 text-center">
             <h3>Front-end developer</h3>
             <p>
               Exploring a wide range of skills including CSS HTML5, JAVASCRIPT,
               Bootstrap, Responsive design and more
             </p>
           </div>
-          <div class="col-4 text-center">
+          <div class="col-md-4 text-center">
             <h3>Website design</h3>
             <p>
               With over 6 years experience in the website design industry
               bringing small businesses online.
             </p>
           </div>
-          <div class="col-4 text-center">
+          <div class="col-md-4 text-center">
             <h3>Digital Design</h3>
             <p>
               A portfolio exploring logo design and branding, through to home
@@ -134,14 +158,30 @@
             </p>
           </div>
         </div>
-        <a href="#" class="btn btn-branding-sm">About me</a>
+        <div class="d-flex justify-content-center">
+          <a href="#" class="btn btn-branding-sm">About me</a>
+        </div>
       </div>
     </div>
-    <h2>Let's Work Together. Get In Touch</h2>
-    <a href="#" class="btn btn-branding-second">Let's talk</a>
+    <div class="contact-banner">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <h2>Let's Work Together. <br />Get In Touch.</h2>
+          </div>
+          <div class="col-md-4 d-flex justify-content-center">
+            <button href="#" class="btn btn-contact mt-2" type="button">
+              Let's talk
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <i class="fa-brands fa-instagram"></i>
     <i class="fa-brands fa-linkedin-in"></i>
     <i class="fa-brands fa-github"></i>
-    <p>This project was coded by Jennifer Boardman and it's open sourced</p>
+    <p class="text-center">
+      This project was coded by Jennifer Boardman and it's open sourced
+    </p>
   </body>
 </html>
