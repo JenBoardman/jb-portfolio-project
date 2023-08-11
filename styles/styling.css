@@ -130,6 +130,12 @@ img {
   width: auto;
 }
 
+.about img {
+  max-height: 550px;
+  height: auto;
+  width: auto;
+}
+
 .grid-gallery {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -169,6 +175,25 @@ img {
   padding-bottom: 50px;
 }
 
+.about-intro {
+  text-align: center;
+}
+
+.about-section {
+  padding: 50px 50px;
+}
+
+.about-section h2 {
+  font-size: 25px;
+}
+.about-section .light-font {
+  font-weight: 300;
+}
+
+.light-font {
+  font-weight: 300;
+}
+
 @media (max-width: 766px) {
   .hero h2 {
     font-size: 20px !important;
@@ -184,8 +209,17 @@ img {
     padding-right: 0px !important;
     padding-top: 0px !important;
   }
+  .about-intro h1 {
+    font-size: 35px !important;
+  }
+  .about img {
+    max-height: 400px !important;
+  }
   footer {
     font-size: 12px !important;
+  }
+  .about-section h2 {
+    font-size: 20px;
   }
 }
 
