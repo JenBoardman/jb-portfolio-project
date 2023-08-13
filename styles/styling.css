@@ -43,6 +43,11 @@ img {
 
 a {
   text-decoration: none;
+  color: #4a3e7a;
+}
+a:hover {
+  text-decoration: none;
+  color: #7c70af;
 }
 
 nav {
@@ -97,7 +102,9 @@ nav li.active a {
 
 .social-links i {
   font-size: 24px;
-  margin: 10px 20px;
+  margin: 10px 0px;
+  margin-right: 20px;
+  padding: 0;
 }
 
 .hero {
