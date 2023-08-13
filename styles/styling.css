@@ -204,6 +204,10 @@ img {
   font-weight: 300;
 }
 
+.email-link {
+  font-size: 12px;
+}
+
 @media (max-width: 766px) {
   .hero h2 {
     font-size: 20px !important;
@@ -230,6 +234,9 @@ img {
   }
   .content h2 {
     font-size: 25px;
+  }
+  .contact-links {
+    text-align: center;
   }
 }
 
