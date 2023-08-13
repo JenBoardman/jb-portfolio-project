@@ -44,6 +44,7 @@ img {
 a {
   text-decoration: none;
   color: #4a3e7a;
+  transition: all 300ms ease-in-out;
 }
 a:hover {
   text-decoration: none;
