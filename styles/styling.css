@@ -41,6 +41,9 @@ img {
   border-radius: 25px;
 }
 
+a {
+  text-decoration: none;
+}
 .social-links i {
   font-size: 24px;
   margin: 10px 20px;
